@@ -1,0 +1,38 @@
+.carousel-container {
+  padding: 2rem;
+  background-color: #fdf4ec; /* Soft cream background */
+}
+
+.carousel-title {
+  font-size: 1.8rem;
+  color: #8b5e3c; /* Rich brown title */
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.carousel-card {
+  padding: 10px;
+  border-radius: 12px;
+  background-color: #fffaf5; /* Warm off-white card */
+  box-shadow: 0 2px 12px rgba(139, 94, 60, 0.08); /* Subtle brownish shadow */
+  text-align: center;
+}
+
+.carousel-card img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.carousel-text h3 {
+  margin-top: 0.8rem;
+  color: #5e4631; /* Deep brown heading */
+  font-size: 1.2rem;
+}
+
+.carousel-text p {
+  font-size: 0.95rem;
+  color: #6e5641; /* Medium warm brown text */
+  margin-top: 0.3rem;
+}

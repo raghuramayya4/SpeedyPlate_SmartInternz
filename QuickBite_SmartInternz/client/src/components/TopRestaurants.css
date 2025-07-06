@@ -1,0 +1,61 @@
+.restaurant-section {
+  padding: 2.5rem 1.5rem;
+  background-color: #f5ebe0; /* Soft cream background */
+}
+
+.restaurant-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.8rem;
+  color: #8B5E3C; /* Dark warm brown */
+}
+
+.restaurant-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.restaurant-card {
+  background: #fffaf3; /* Light off-white */
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+  text-align: center;
+  padding: 1rem;
+  transition: transform 0.2s;
+}
+
+.restaurant-card:hover {
+  transform: translateY(-5px);
+}
+
+.restaurant-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 0.8rem;
+}
+
+.restaurant-card h3 {
+  margin: 0.5rem 0 0.2rem;
+  font-size: 1.2rem;
+  color: #5d4037; /* Rich coffee brown */
+}
+
+.restaurant-card p {
+  color: #6b4f3b; /* Muted brown for text */
+  font-size: 0.9rem;
+  margin-bottom: 0.8rem;
+}
+
+.restaurant-card button {
+  padding: 8px 16px;
+  background-color: #a0522d; /* Sienna */
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
